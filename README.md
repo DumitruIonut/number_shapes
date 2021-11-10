@@ -1,4 +1,4 @@
-# numbershapes
+# number shapes
 
 [@DumitruIonut](https://github.com/DumitruIonut)
 
