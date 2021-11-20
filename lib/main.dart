@@ -111,7 +111,7 @@ class _HomepageState extends State<Homepage> {
             context: context,
             builder: (BuildContext context) => AlertDialog(
               title: Text('$tstNumber'),
-              content: Text("$infoNumber"),
+              content: Text('$infoNumber'),
             ),
           );
           controller.clear();
