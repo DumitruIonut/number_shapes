@@ -56,9 +56,7 @@ class _HomepageState extends State<Homepage> {
               padding: const EdgeInsets.all(5.0),
               child: TextField(
                 keyboardType: TextInputType.number,
-                inputFormatters: <TextInputFormatter>[
-                  FilteringTextInputFormatter.digitsOnly
-                ],
+                inputFormatters: <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly],
                 style: const TextStyle(
                   fontSize: 20.0,
                 ),
@@ -69,8 +67,7 @@ class _HomepageState extends State<Homepage> {
                   enabledBorder: InputBorder.none,
                   errorBorder: InputBorder.none,
                   disabledBorder: InputBorder.none,
-                  contentPadding:
-                      EdgeInsets.symmetric(vertical: 20, horizontal: 15),
+                  contentPadding: EdgeInsets.symmetric(vertical: 20, horizontal: 15),
                 ),
                 onChanged: (String? value) {
                   setState(() {
